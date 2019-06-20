@@ -14,9 +14,41 @@ names(form) <- "BoardGameGeek Username"
 fulldata <- data.frame(matrix(nrow = 1, ncol=16, data = 0))
 user_temp_data <- data.frame(matrix(nrow = 1, ncol=16, data = 0))
 
-names(fulldata) <- c("user", "gamenames", "yearpublished", "minplayers", "maxplayers", "playing_time_minutes", "user_rating", "bgg_rating", "num_plays", "own", "wanttoplay","wanttobuy", "wanttotrade", "wantintrade", "wishlist", "comment")
+names(fulldata) <- c(
+  "user", 
+  "gamenames", 
+  "yearpublished", 
+  "minplayers", 
+  "maxplayers", 
+  "playing_time_minutes", 
+  "user_rating", 
+  "bgg_rating", 
+  "num_plays", 
+  "own", 
+  "wanttoplay",
+  "wanttobuy", 
+  "wanttotrade", 
+  "wantintrade", 
+  "wishlist", 
+  "comment")
 
-names(user_temp_data) <- c("user", "gamenames", "yearpublished", "minplayers", "maxplayers", "playing_time_minutes", "user_rating", "bgg_rating", "num_plays", "own", "wanttoplay", "wanttobuy", "wanttotrade", "wantintrade", "wishlist", "comment")
+names(user_temp_data) <- c(
+  "user", 
+  "gamenames", 
+  "yearpublished", 
+  "minplayers", 
+  "maxplayers", 
+  "playing_time_minutes", 
+  "user_rating", 
+  "bgg_rating", 
+  "num_plays", 
+  "own", 
+  "wanttoplay",
+  "wanttobuy", 
+  "wanttotrade", 
+  "wantintrade", 
+  "wishlist", 
+  "comment")
 
 
 
